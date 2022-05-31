@@ -1,17 +1,22 @@
-body 
-  
+body {
+  margin: 0
+}
+
   #active {
     background-color: white;
     color: steelblue;
   }
   nav {
-    padding: 10px;
+    padding: 25px;
     text-align: center;
+    background-color: steelblue;
   }
   a {
     color: white;
-    margin: 40px;
+    margin: 50px ;
     font-size: 1.5em;
+    padding: 25px;
+
   }
   h1 {
     color: steelblue;
@@ -21,6 +26,8 @@ body
     display: block;
     width: 80%;
     margin: 0 auto;
+    border: 4px solid steelblue;
+
   }
   
   p {
@@ -37,6 +44,12 @@ body
   }
   footer {
     text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 25px;
+    margin: 50px 0;
+
+
   }
   nav, footer {
     background-color: steelblue;
