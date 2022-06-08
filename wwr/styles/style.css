@@ -170,6 +170,16 @@ footer a:hover{
     justify-self: center;
     align-self: center;
 }
+#center-it{
+    width: auto;
+    padding-top: 25px;
+    color: white;
+    font-family: Tourney;
+    font-size: 1.5em;
+    margin-top: 10px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
 footer h3 a:hover{
     text-decoration: underline;
 }
@@ -179,6 +189,25 @@ footer .social img  {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }  
+.grand{
+    color: #f0f3bd;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    padding-top: 30px;
+}
+.desolation{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    color: #f0f3bd;
+    padding-top: 50px;
+
+}
+.main-fork {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    color: #f0f3bd;
+
+} 
 .card-img {
     border: 10px solid black ;
     width: 100%;
@@ -211,6 +240,12 @@ footer .social img  {
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+.new-grid {
+    display: grid;
+    grid-template-rows: 100px, 1fr, 1fr, 1fr;
+    grid-template-columns: repeat(3, 1fr);
+
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
