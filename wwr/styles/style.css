@@ -186,15 +186,7 @@ footer h3 a:hover{
 footer .social img  {
     padding-top: 15px;
 } 
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-}  
-.grand{
-    color: #f0f3bd;
-    grid-column: 1/4;
-    grid-row: 3/4;
-    padding-top: 30px;
-}
+
 .desolation{
     grid-column: 1/4;
     grid-row: 4/5;
