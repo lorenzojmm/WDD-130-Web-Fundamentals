@@ -60,7 +60,6 @@ body {
 .home-grid {
     display: flex;
     align-content: center;
-    grid
 }
 .home-grid img {
     width: 400px;
@@ -76,11 +75,14 @@ nav a:hover {
     background-color: #D4A373;
     color: #f0f3bd;
 }
-.map-card, .sunset-card, .lake-card { 
-    margin: 50px auto;
+.map-card, .sunset-card, .lake-card, .card2{ 
+    margin: 45px auto;
     width: 60%;
 }
 
+.card-img2 {
+    width: 600px;
+}
 .msg{
     background-color: #D4A373;
     line-height: 1.5em;
@@ -118,6 +120,9 @@ h2 {
     color: white;
     font-size: .8em;
     padding-bottom: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 footer h3{
     color: whitesmoke;
