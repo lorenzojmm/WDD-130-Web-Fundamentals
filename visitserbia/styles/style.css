@@ -118,23 +118,28 @@ footer{
 h4 {
     color: white;
 }
+
 h2 {
-    margin: 0;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .msg h2{
     color: white;
     font-family: 'Poppins', sans-serif, Helvetica, sans-serif;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .msg p{
-    color: white;
+    color: black;
     font-size: .8em;
     padding-bottom: 15px;
     margin-left: 100px;
     margin-right: 100px;
 
+
 }
+h3
 footer h3{
     color: whitesmoke;
 }
@@ -181,6 +186,7 @@ footer .social img  {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: 50px;
   }
   
   /* Hide the images by default */
