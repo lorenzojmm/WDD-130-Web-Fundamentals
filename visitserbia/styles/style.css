@@ -177,7 +177,9 @@ footer .social img  {
     color: black;
     padding: 1em;
   }
-
+h1 {
+    border: #D98014 5px;
+}
 
   * {box-sizing:border-box}
 
